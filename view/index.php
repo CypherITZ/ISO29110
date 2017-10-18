@@ -28,12 +28,11 @@
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="dist/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+
+<!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -72,7 +71,7 @@
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-left">
-                        <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="dist/img/diana.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Support Team
@@ -258,13 +257,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="dist/img/rosas.jpg" class="user-image" alt="User Image">
+              <img src="dist/img/diana.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs">Diana Rosas Hdez</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="dist/img/rosas.jpg" class="img-circle" alt="User Image">
+                <img src="dist/img/diana.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Diana Rosas Hdez - Web Developer
@@ -312,7 +311,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/rosas.jpg" class="img-circle" alt="User Image">
+          <img src="dist/img/diana.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Diana Rosas Hdez</p>
@@ -333,7 +332,8 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview">
+        <li <?php if(isset($inicio)){ ?> class="active" <?php } ?>><a href="?c=inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
+        <li <?php if(isset($proyectos)){ ?> class="active treeview" <?php } ?>>
           <a href="#">
             <i class="fa  fa-folder"></i> <span>Proyectos</span>
             <span class="pull-right-container">
@@ -368,25 +368,9 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Dashboard
-        <small>Control panel</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
-      </ol>
-    </section>
 
-    <!-- Main content -->
-    <section class="content">
-    
     <?php include($page); ?>
 
-    </section>
-    <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
@@ -600,7 +584,19 @@
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button);
+  $(function () {
+    $('#example1').DataTable()
+    $('#example2').DataTable({
+      'paging'      : true,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : true,
+      'autoWidth'   : false
+    })
+  })
 </script>
+
 <!-- Bootstrap 3.3.7 -->
 <script src="dist/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- Morris.js charts -->
@@ -630,5 +626,9 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+<!-- DataTables -->
+<script src="dist/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="dist/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+
 </body>
 </html>

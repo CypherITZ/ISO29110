@@ -9,6 +9,7 @@ class InicioController{
 	}
 
 	public function Index(){
+		$inicio=true;
 		$page="view/inicio.php";
 		require_once 'view/index.php';
 	}

@@ -1,10 +1,8 @@
+<section class="content-header">
 
+</section>
 
-
-
-
-
-
-
-
-<center><h1> Bienvenido al sistema de control de la ISO 29110</h1></center>
+<!-- Main content -->
+<section class="content">
+	<center><h1> Bienvenido al sistema de control de la ISO 29110</h1></center>
+</section>
