@@ -257,13 +257,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="dist/img/diana.jpg" class="user-image" alt="User Image">
+              <img src="dist/img/rosas.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs">Diana Rosas Hdez</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="dist/img/diana.jpg" class="img-circle" alt="User Image">
+                <img src="dist/img/rosas.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Diana Rosas Hdez - Web Developer
@@ -311,7 +311,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/diana.jpg" class="img-circle" alt="User Image">
+          <img src="dist/img/rosas.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Diana Rosas Hdez</p>
@@ -353,7 +353,7 @@
         </li>
         <li <?php if(isset($usuarios)){ ?> class="active" <?php } ?>>
           <a href="?c=usuario">
-            <i class="fa fa-user"></i> <span>Usuarios</span>f
+            <i class="fa fa-user"></i> <span>Usuarios</span>
           </a>
         </li>
         <li <?php if(isset($ayudas)){ ?> class="active" <?php } ?>>

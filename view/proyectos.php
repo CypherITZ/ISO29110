@@ -41,9 +41,38 @@
                   <td>20-Oct-2017</td>
                   <td>Silvia</td>
                   <td>Una descripcion</td>
-                  <td><button type="button" class="btn btn-blick btn-primary">Editar</button></td>
-                  <td><button type="button" class="btn btn-blick btn-danger">Borrar</button></td>
-
+                  <td><button type="button" class="btn btn-block btn-primary btn-xs"><i class="fa fa-edit"></i></button></td>
+                  <td><button type="button" class="btn btn-block btn-danger btn-xs"><i class="fa fa-eraser"></i></button></td>
+                </tr>
+                <tr>
+                  <td>PROY2</td>
+                  <td>Maestrias</td>
+                  <td>13-Jul-2017</td>
+                  <td>28-Nov-2017</td>
+                  <td>Silvia</td>
+                  <td>Una descripcion</td>
+                  <td><button type="button" class="btn btn-block btn-primary btn-xs"><i class="fa fa-edit"></i></button></td>
+                  <td><button type="button" class="btn btn-block btn-danger btn-xs"><i class="fa fa-eraser"></i></button></td>
+                </tr>
+                <tr>
+                  <td>PROY3</td>
+                  <td>Operadores</td>
+                  <td>14-Ago-2017</td>
+                  <td>05-Dic-2017</td>
+                  <td>Oscar</td>
+                  <td>Una descripcion</td>
+                  <td><button type="button" class="btn btn-block btn-primary btn-xs"><i class="fa fa-edit"></i></button></td>
+                  <td><button type="button" class="btn btn-block btn-danger btn-xs"><i class="fa fa-eraser"></i></button></td>
+                </tr>
+                <tr>
+                  <td>PROY4</td>
+                  <td>Cypher</td>
+                  <td>14-Ago-2017</td>
+                  <td>05-Dic-2017</td>
+                  <td>Oscar</td>
+                  <td>Una descripcion</td>
+                 <td><button type="button" class="btn btn-block btn-primary btn-xs"><i class="fa fa-edit"></i></button></td>
+                  <td><button type="button" class="btn btn-block btn-danger btn-xs"><i class="fa fa-eraser"></i></button></td>
                 </tr>
                 </tbody>
                 <tfoot>
