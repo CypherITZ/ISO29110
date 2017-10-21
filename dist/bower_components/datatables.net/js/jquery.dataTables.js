@@ -11576,7 +11576,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Show _MENU_ entries",
+			"sLengthMenu": "Mostrar _MENU_ registros por página",
 	
 	
 			/**
@@ -11600,7 +11600,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLoadingRecords": "Loading...",
+			"sLoadingRecords": "Procesando...",
 	
 	
 			/**
@@ -11621,7 +11621,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sProcessing": "Processing...",
+			"sProcessing": "Procesando...",
 	
 	
 			/**
@@ -11714,7 +11714,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sZeroRecords": "No matching records found"
+			"sZeroRecords": "No se encontró ningún registro"
 		},
 	
 	
