@@ -10,7 +10,7 @@ class UsuarioController{
 
 	public function Index(){
 		$usuarios=true;
-		$page="view/usuarios.php";
+		$page="view//usuarios/usuarios.php";
 		require_once 'view/index.php';
 	}
 

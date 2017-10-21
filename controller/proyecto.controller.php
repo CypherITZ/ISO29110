@@ -10,11 +10,13 @@ class ProyectoController{
 
 	public function Index(){
 		$proyectos=true;
+		$vproyectos=true;
 		$page="view/proyectos/proyectos.php";
 		require_once 'view/index.php';
 	}
 	public function Crud(){
 		$proyectos=true;
+		$rproyecto=true;
 		$page="view/proyectos/crud.php";
 		require_once 'view/index.php';
 	}

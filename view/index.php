@@ -329,20 +329,15 @@
         </a>
         <ul class="treeview-menu">
           <li <?php if(isset($sproyectos)){ ?> class="active" <?php } ?>><a  href="?c=sproyecto"><i class="fa fa-check-square"></i>Seleccionar proyecto</a></li>
-          <li <?php if(isset($sproyectos)){ ?> class="active" <?php } ?>><a  href="?c=proyecto"><i class="fa fa-check-square"></i>Ver proyectos</a></li>
-          <li <?php if(isset($proyectos)){ ?> class="active" <?php } ?>><a  href="?c=proyecto&a=crud"><i class="fa fa-check-square"></i>Registrar proyecto</a></li>
+          <li <?php if(isset($vproyectos)){ ?> class="active" <?php } ?>><a  href="?c=proyecto"><i class="fa fa-check-square"></i>Ver proyectos</a></li>
+          <li <?php if(isset($rproyecto)){ ?> class="active" <?php } ?>><a  href="?c=proyecto&a=crud"><i class="fa fa-check-square"></i>Registrar proyecto</a></li>
           <li <?php if(isset($docs)){ ?> class="active" <?php } ?> ><a href="?c=doc"><i class="fa fa-file-text-o"></i> Documentación</a></li>
           <li<?php if(isset($estadisticas)){ ?> class="active" <?php } ?>><a href="?c=estadistica"><i class="fa  fa-area-chart"></i> Estadisticas</a></li>
         </ul>
       </li>
-      <li <?php if(isset($proyectos)){ ?> class="active" <?php } ?>>
-        <a href="?c=proyecto">
-          <i class="fa  fa-folder-o"></i> <span>Proyectos</span>
-        </a>
-      </li>
       <li <?php if(isset($usuarios)){ ?> class="active" <?php } ?>>
         <a href="?c=usuario">
-          <i class="fa fa-user"></i> <span>Usuarios</span>f
+          <i class="fa fa-user"></i> <span>Usuarios</span>
         </a>
       </li>
       <li <?php if(isset($ayudas)){ ?> class="active" <?php } ?>>

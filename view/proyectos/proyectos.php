@@ -44,9 +44,6 @@
                   <td>Una descripcion</td>
                   <td><button type="button" class="btn btn-block btn-primary btn-xs"><i class="fa fa-edit"></i></button></td>
                   <td><button type="button" class="btn btn-block btn-danger btn-xs"><i class="fa fa-eraser"></i></button></td>
-<<<<<<< HEAD:view/proyectos/proyectos.php
-
-=======
                 </tr>
                 <tr>
                   <td>PROY2</td>
@@ -77,7 +74,6 @@
                   <td>Una descripcion</td>
                  <td><button type="button" class="btn btn-block btn-primary btn-xs"><i class="fa fa-edit"></i></button></td>
                   <td><button type="button" class="btn btn-block btn-danger btn-xs"><i class="fa fa-eraser"></i></button></td>
->>>>>>> db59b6482627052b5422536cb6782ec3069b8110:view/proyectos.php
                 </tr>
                 </tbody>
                 <tfoot>
