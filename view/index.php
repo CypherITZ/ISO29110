@@ -328,17 +328,25 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li <?php if(isset($sproyectos)){ ?> class="active" <?php } ?>><a  href="?c=sproyecto"><i class="fa fa-check-square"></i>Seleccionar proyecto</a></li>
-          <li <?php if(isset($vproyectos)){ ?> class="active" <?php } ?>><a  href="?c=proyecto"><i class="fa fa-check-square"></i>Ver proyectos</a></li>
-          <li <?php if(isset($rproyecto)){ ?> class="active" <?php } ?>><a  href="?c=proyecto&a=crud"><i class="fa fa-check-square"></i>Registrar proyecto</a></li>
+          <li <?php if(isset($sproyectos)){ ?> class="active" <?php } ?>><a  href="?c=sproyecto"><i class="fa fa-check-square-o"></i>Seleccionar proyecto</a></li>
+          <li <?php if(isset($vproyectos)){ ?> class="active" <?php } ?>><a  href="?c=proyecto"><i class="fa fa-folder-open-o"></i>Ver proyectos</a></li>
+          <li <?php if(isset($rproyecto)){ ?> class="active" <?php } ?>><a  href="?c=proyecto&a=crud"><i class="fa fa-pencil-square-o"></i>Registrar proyecto</a></li>
           <li <?php if(isset($docs)){ ?> class="active" <?php } ?> ><a href="?c=doc"><i class="fa fa-file-text-o"></i> Documentación</a></li>
           <li<?php if(isset($estadisticas)){ ?> class="active" <?php } ?>><a href="?c=estadistica"><i class="fa  fa-area-chart"></i> Estadisticas</a></li>
         </ul>
       </li>
-      <li <?php if(isset($usuarios)){ ?> class="active" <?php } ?>>
+
+      <li class=treeview <?php if(isset($usuarios)){ ?> class="active" <?php } ?>>
         <a href="?c=usuario">
           <i class="fa fa-user"></i> <span>Usuarios</span>
+           <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+           </span>
         </a>
+         <ul class="treeview-menu">
+           <li <?php if(isset($vusuario)){ ?> class="active" <?php } ?>><a  href="?c=usuario"><i class="fa fa-users"></i>Ver Usuarios</a></li>
+             <li <?php if(isset($rusuario)){ ?> class="active" <?php } ?>><a  href="?c=usuario&a=crudU"><i class="fa fa-user-plus"></i>Registrar Usuario</a></li>
+         </ul>
       </li>
       <li <?php if(isset($ayudas)){ ?> class="active" <?php } ?>>
         <a href="?c=ayuda">

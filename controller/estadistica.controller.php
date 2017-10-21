@@ -10,7 +10,7 @@ class EstadisticaController{
 
 	public function Index(){
 		$estadisticas=true;
-		$page="view/estadisticas.php";
+		$page="view/proyectos/estadisticas.php";
 		require_once 'view/index.php';
 	}
 

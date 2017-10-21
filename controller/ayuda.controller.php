@@ -10,7 +10,7 @@ class AyudaController{
 
 	public function Index(){
 		$ayudas=true;
-		$page="view/ayuda.php";
+		$page="view/ayuda/ayuda.php";
 		require_once 'view/index.php';
 	}
 

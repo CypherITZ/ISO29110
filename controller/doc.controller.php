@@ -10,7 +10,7 @@ class DocController{
 
 	public function Index(){
 		$docs=true;
-		$page="view/docs.php";
+		$page="view/proyectos/docs.php";
 		require_once 'view/index.php';
 	}
 

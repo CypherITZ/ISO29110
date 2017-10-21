@@ -10,7 +10,7 @@ class sProyectoController{
 
 	public function Index(){
 		$sproyecto=true;
-		$page="view/sproyectos.php";
+		$page="view/proyectos/sproyectos.php";
 		require_once 'view/index.php';
 	}
 

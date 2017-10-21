@@ -1,13 +1,13 @@
- <!-- Content Header (Page header) -->
+<!-- Content Header (Page header) -->
  <section class="content-header">
   <h1>
     Proyectos
-    <small>Registrar proyecto</small>
+    <small>Registrar Usuarios</small>
   </h1>
   <ol class="breadcrumb">
     <li><a href="?c=inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
-    <li><a href="?c=proyecto">Proyectos</a></li>
-    <li class="active">Registrar proyecto</li>
+    <li><a href="?c=suarios">Usuarios</a></li>
+    <li class="active">Registrar Usuarios</li>
   </ol>
 </section>
 
@@ -17,7 +17,7 @@
     <div class="col-xs-12">
      <div class="box box-body">
       <div class="box-header with-border">
-        <h3 class="box-title">Ingresa los datos del proyecto</h3>
+        <h3 class="box-title">Ingresa los datos del Usuario</h3>
 
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -29,36 +29,36 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-             <label for="txtCodigoProyecto">Código de proyecto</label>
-             <input name="codigoProyecto" type="text" class="form-control" id="txtCodigoProyecto" placeholder="Ingrese el código del proyecto">
+             <label for="txtCodigoUsuario">ID Usuario</label>
+             <input name="codigoUsuario" type="text" class="form-control" id="txtCodigoUsuario" placeholder="Ingrese el código del usuario">
            </div>
            <!-- /.form-group -->
            <div class="form-group">
-             <label for="txtFechaInicio">Fecha de inicio</label>
-             <input name="fechaIncio" type="date" class="form-control" id="txtFechaInicio" placeholder="Indique la fecha de inicio">
+             <label for="txtPassword">Password</label>
+             <input name="password" type="password" class="form-control" id="txtPassword" placeholder="Ingrese el password">
            </div>
            <!-- /.form-group -->
            <!-- /.form-group -->
            <div class="form-group">
-             <label for="txtResponsable">Responsable</label>
-             <input name="responsable" type="text" class="form-control" id="txtResponsable" placeholder="Indique el responsable del proyecto">
+             <label for="txtEmpresa">Empresa</label>
+             <input name="empresa" type="text" class="form-control" id="txtEmpresa" placeholder="Nombre de la Empresa">
            </div>
            <!-- /.form-group -->
          </div>
          <!-- /.col -->
          <div class="col-md-6">
            <div class="form-group">
-             <label for="txtNombreProyecto">Nombre del proyecto</label>
-             <input name="nombreProyecto" type="text" class="form-control" id="txtNombreProyecto" placeholder="Ingrese el nombre del proyecto">
+             <label for="txtNombre">Nombre</label>
+             <input name="nombre" class="form-control" id="txtNombre" placeholder="Ingrese el Nombre">
            </div>
            <div class="form-group">
-             <label for="txtFechaFin">Fecha fin</label>
-             <input name="fechaFin" type="date" class="form-control" id="txtFechaFin" placeholder="Indique la fecha fin">
+             <label for="exampleInputEmail1">Email</label>
+             <input name="email" class="form-control" id="exampleInputEmail1" placeholder="example@hotmail.com">
            </div>
            <!-- /.form-group -->
            <div class="form-group">
-             <label for="txtDescripcion">Descripción</label>
-             <input name="descripcion" type="text" class="form-control" id="txtDescripcion" placeholder="Descripción del proyecto">
+             <label for="txtRol">Rol</label>
+             <input name="rol" class="form-control" id="txtRol" placeholder="Rol">
            </div>
            <!-- /.form-group -->
          </div>
