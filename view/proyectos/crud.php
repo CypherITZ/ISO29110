@@ -26,56 +26,46 @@
       </div>
       <!-- /.box-header -->
       <div class="box-body">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-             <label for="txtCodigoProyecto">Código de proyecto</label>
-             <input name="codigoProyecto" type="text" class="form-control" id="txtCodigoProyecto" placeholder="Ingrese el código del proyecto">
-           </div>
-           <!-- /.form-group -->
-           <div class="form-group">
-             <label for="txtFechaInicio">Fecha de inicio</label>
-             <input name="fechaIncio" type="date" class="form-control" id="txtFechaInicio" placeholder="Indique la fecha de inicio">
-           </div>
-           <!-- /.form-group -->
-           <!-- /.form-group -->
-           <div class="form-group">
-             <label for="txtResponsable">Responsable</label>
-             <input name="responsable" type="text" class="form-control" id="txtResponsable" placeholder="Indique el responsable del proyecto">
-           </div>
-           <!-- /.form-group -->
-         </div>
-         <!-- /.col -->
-         <div class="col-md-6">
-           <div class="form-group">
-             <label for="txtNombreProyecto">Nombre del proyecto</label>
-             <input name="nombreProyecto" type="text" class="form-control" id="txtNombreProyecto" placeholder="Ingrese el nombre del proyecto">
-           </div>
-           <div class="form-group">
-             <label for="txtFechaFin">Fecha fin</label>
-             <input name="fechaFin" type="date" class="form-control" id="txtFechaFin" placeholder="Indique la fecha fin">
-           </div>
-           <!-- /.form-group -->
-           <div class="form-group">
-             <label for="txtDescripcion">Descripción</label>
-             <input name="descripcion" type="text" class="form-control" id="txtDescripcion" placeholder="Descripción del proyecto">
-           </div>
-           <!-- /.form-group -->
-         </div>
-         <!-- /.col -->
-       </div>
-       <!-- /.row -->
-       <div class="row">
-         <div class="col-md-2 col-md-offset-10">
-          <div class="box-footer">
-            <button style="width: 100%;" type="submit" class="btn btn-primary">Enviar</button>
+        <form action="index.php?c=proyecto&a=guardar" method="post" enctype="multipart/form-data">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+               <label for="txtCodigoProyecto">Código de proyecto</label>
+               <input name="codigoProyecto" type="text" class="form-control" id="txtCodigoProyecto" placeholder="Ingrese el código del proyecto">
+             </div><!-- /.form-group -->
+             <div class="form-group">
+               <label for="txtFechaInicio">Fecha de inicio</label>
+               <input name="fechaIncio" type="date" class="form-control" id="txtFechaInicio" placeholder="Indique la fecha de inicio">
+             </div><!-- /.form-group -->
+             <div class="form-group">
+               <label for="txtResponsable">Responsable</label>
+               <input name="responsable" type="text" class="form-control" id="txtResponsable" placeholder="Indique el responsable del proyecto">
+             </div><!-- /.form-group -->
+           </div><!-- /.col -->
+           <div class="col-md-6">
+             <div class="form-group">
+               <label for="txtNombreProyecto">Nombre del proyecto</label>
+               <input name="nombreProyecto" type="text" class="form-control" id="txtNombreProyecto" placeholder="Ingrese el nombre del proyecto">
+             </div>
+             <div class="form-group">
+               <label for="txtFechaFin">Fecha fin</label>
+               <input name="fechaFin" type="date" class="form-control" id="txtFechaFin" placeholder="Indique la fecha fin">
+             </div><!-- /.form-group -->
+             <div class="form-group">
+               <label for="txtDescripcion">Descripción</label>
+               <input name="descripcion" type="text" class="form-control" id="txtDescripcion" placeholder="Descripción del proyecto">
+             </div><!-- /.form-group -->
+           </div><!-- /.col -->
+         </div><!-- /.row -->
+         <div class="row">
+           <div class="col-md-2 col-md-offset-10">
+            <div class="box-footer">
+              <button style="width: 100%;" type="submit" class="btn btn-primary">Enviar</button>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- /.box-body -->
-    </div>
-    <!-- /.col -->
-  </div>
-  <!-- /.row -->
-</section>
-<!-- /.content -->
+      </form>
+    </div><!-- /.box-body -->
+  </div><!-- /.col -->
+</div><!-- /.row -->
+</section><!-- /.content -->

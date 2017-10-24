@@ -1,5 +1,5 @@
 <!-- Content Header (Page header) -->
- <section class="content-header">
+<section class="content-header">
   <h1>
     Proyectos
     <small>Registrar Usuarios</small>
@@ -27,44 +27,52 @@
       <!-- /.box-header -->
       <div class="box-body">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="form-group">
-             <label for="txtCodigoUsuario">ID Usuario</label>
-             <input name="codigoUsuario" type="text" class="form-control" id="txtCodigoUsuario" placeholder="Ingrese el código del usuario">
-           </div>
-           <!-- /.form-group -->
-           <div class="form-group">
-             <label for="txtPassword">Password</label>
-             <input name="password" type="password" class="form-control" id="txtPassword" placeholder="Ingrese el password">
-           </div>
-           <!-- /.form-group -->
-           <!-- /.form-group -->
-           <div class="form-group">
-             <label for="txtEmpresa">Empresa</label>
-             <input name="empresa" type="text" class="form-control" id="txtEmpresa" placeholder="Nombre de la Empresa">
-           </div>
-           <!-- /.form-group -->
-         </div>
-         <!-- /.col -->
-         <div class="col-md-6">
-           <div class="form-group">
-             <label for="txtNombre">Nombre</label>
-             <input name="nombre" class="form-control" id="txtNombre" placeholder="Ingrese el Nombre">
-           </div>
+             <label hidden for="txtCodigoUsuario">ID Usuario</label>
+             <input name="codigoUsuario" type="hidden" class="form-control" id="txtCodigoUsuario" placeholder="Ingrese el código del usuario">
+           </div><!-- /.form-group -->
+           <div class="col-md-6">
+             <div class="form-group">
+               <label for="txtNombre">Nombre</label>
+               <input name="nombre" class="form-control" id="txtNombre" placeholder="Ingrese el nombre completo del usuario">
+             </div><!-- /.form-group -->
+             <div class="form-group">
+               <label for="txtEmpresa">Empresa</label>
+               <input name="empresa" type="text" class="form-control" id="txtEmpresa" placeholder="Nombre de la Empresa">
+             </div><!-- /.form-group -->
+              <div class="form-group">
+               <label for="txtPassword">Contraseña</label>
+               <input name="password" type="password" class="form-control" id="txtPassword" placeholder="Ingrese tu contraseña">
+             </div><!-- /.form-group -->
+             <div class="form-group">
+               <label for="txtRol">Rol</label>
+               <input name="rol" class="form-control" id="txtRol" placeholder="Rol">
+             </div>
+           </div><!-- /.col -->
+           <div class="col-md-6">
+            <div class="form-group">
+             <label for="txtUsuario">Usuario</label>
+             <input name="usuario" class="form-control" id="txtNombre" placeholder="Ingrese un nombre de usuario">
+           </div><!-- /.form-group -->
            <div class="form-group">
              <label for="exampleInputEmail1">Email</label>
              <input name="email" class="form-control" id="exampleInputEmail1" placeholder="example@hotmail.com">
-           </div>
-           <!-- /.form-group -->
+           </div><!-- /.form-group -->
            <div class="form-group">
-             <label for="txtRol">Rol</label>
-             <input name="rol" class="form-control" id="txtRol" placeholder="Rol">
+             <label for="txtPassword">Contraseña</label>
+             <input name="password" type="password" class="form-control" id="txtPassword" placeholder="Confirme su contraseña">
+           </div><!-- /.form-group -->
+           <div class="form-group">
+             <label for="tipoUsuario">Tipo de usuario</label>
+             <select class="form-control select2" style="width: 100%;" name="tipoUsuario" id="tipoUsuario">
+               <option selected="selected" value="regular">Seleccione un tipo de usuario</option>
+               <option value="administrador">Administrador</option>
+               <option value="regular">Regular</option>
+             </select>
            </div>
-           <!-- /.form-group -->
-         </div>
-         <!-- /.col -->
-       </div>
-       <!-- /.row -->
+         </div><!-- /.col -->
+       </div><!-- /.row -->
        <div class="row">
          <div class="col-md-2 col-md-offset-10">
           <div class="box-footer">
